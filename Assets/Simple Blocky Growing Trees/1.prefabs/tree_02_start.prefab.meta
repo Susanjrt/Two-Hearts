@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1f454ba9d1afa4ebd9f1f6c5efef0f8b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 123407
+  packageName: Simple Blocky Growing Trees
+  packageVersion: 1.0
+  assetPath: Assets/Simple Blocky Growing Trees/1.prefabs/tree_02_start.prefab
+  uploadId: 560395

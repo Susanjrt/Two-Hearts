@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 077318576267542ed8b422fc8d921ec8
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 123407
+  packageName: Simple Blocky Growing Trees
+  packageVersion: 1.0
+  assetPath: Assets/Simple Blocky Growing Trees/4.materials/plants_tex.mat
+  uploadId: 560395
