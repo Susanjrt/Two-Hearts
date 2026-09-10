@@ -11,6 +11,9 @@ public class BaumWachstumFinale : MonoBehaviour
     public float startGroesse = 0.5f;
     public float endGroesse = 3.5f;
 
+    [Header("Erde")]
+    public Material erdeMaterial;
+
     private GameObject aktuellerBaum;
     private GameObject erde;
 
@@ -50,12 +53,18 @@ public class BaumWachstumFinale : MonoBehaviour
 
         if (renderer != null)
         {
-            renderer.material.color =
-                new Color(
-                    0.28f,
-                    0.18f,
-                    0.10f
+            // Eigenes Material verwenden
+            // Dadurch funktioniert es auch im fertigen Build korrekt.
+            if (erdeMaterial != null)
+            {
+                renderer.material = erdeMaterial;
+            }
+            else
+            {
+                Debug.LogWarning(
+                    "Kein Erde-Material im Inspector zugewiesen!"
                 );
+            }
         }
     }
 
